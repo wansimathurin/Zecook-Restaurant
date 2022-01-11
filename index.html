@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZeCook</title>
+      <!-- Favicons -->
+    <link href="img/chef.png" rel="icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- *fonts -->
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.css">
+    <!-- *owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.css" integrity="sha512-riTSV+/RKaiReucjeDW+Id3WlRLVZlTKAJJOHejihLiYHdGaHV7lxWaCfAvUR0ErLYvxTePZpuKZbrTbwpyG9w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- *menu area --> 
+    <nav class="menu" >
+       <div class="brand">
+            <h5><img src="img/chef.png" alt="" width="40px"><span class="color">Ze</span>Cook</h5>
+       </div>
+       <div class="page-link">
+           <ul> 
+               <li><a href="#about">About</a></li>
+               <li><a href="#dish-area">Dishes</a></li>
+               <li><a href="#experts">Expert</a></li>
+               <li><a href="#testimonials">Testimonial</a></li>
+               <li><a href="#contact">Contact</a></li>
+           </ul>
+       </div>
+        <div class="toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+       
+    </nav>
+    <nav class="mobile">
+     <ul>
+         <li><a href="#">Home</a></li>
+         <li><a href="#">About</a></li>
+         <li><a href="#">Service</a></li>
+     </ul>
+    </nav>
+ <!-- !menu end --> 
+  <section id="banner-area" class="center flex">
+    <h1><span class="color">Ze</span>Cook for better meals</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quasi omnis eos incidunt illo deleniti odit voluptate eligendi magni ipsam!</p>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, quas!</p>
+    <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e00c4c" fill-opacity="1" d="M0,192L60,176C120,160,240,128,360,117.3C480,107,600,117,720,138.7C840,160,960,192,1080,181.3C1200,171,1320,117,1380,90.7L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+  </section>
+  <section id="about" class="center">
+       <div class="about-infos center">
+               <div class="content">
+                    <h1 class="title"><span class="color">A</span>bout <span class="color">Ze</span>Cook</h1><br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat nemo, non amet recusandae ipsam, nulla illum vel, qui quis dolore incidunt temporibus ipsa expedita iste. Sequi maiores odit impedit eveniet adipisci qui recusandae rem facere quia iusto a fugiat quam eligendi, tempora quasi officia mollitia unde doloremque, odio, ullam voluptate. Quod atque quia, aut incidunt sed in quisquam earum deleniti itaque doloremque aspernatur voluptate eaque, maxime minus! Laudantium pariatur dolorem alias dolorum suscipit, repellat voluptates, voluptate facilis quo veniam eveniet, cupiditate illo maxime. Delectus laborum, voluptatum consectetur nesciunt, suscipit impedit, numquam nostrum enim perferendis maiores nisi officia vitae quod fugiat.</p>
+                 <button type="submit" class="btn">Place an Order</button>
+            </div>
+            <img src="img/dishes/2.jpeg" alt="">
+       </div>
+  </section>
+  <section id="dish-area" class="center">
+       <div class="dish-content center flex">
+           <h1 class="title"><span class="color">T</span>op <span class="color">Di</span>shes</h1><br>
+            <div class="top-dishes">
+                <!-- *dish -->
+                 <div class="dish-card center flex">
+                     <div class="dish-img"><img class="" src="img/dishes/6.jpeg" alt="" onclick="show('img/dishes/6.jpeg')"></div>
+                     <div class="dish-info">
+                         <h2>Riz and spanish ash </h2>
+                         <span style="color: gold; font-size: 20px;">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half" aria-hidden="true"></i>
+                         </span>
+                         <button type="submit" class="btn">Place an Order</button>
+                     </div>
+                 </div>
+                 <!-- !end dish -->
+                   <!-- *dish -->
+                   <div class="dish-card center flex">
+                    <div class="dish-img"><img src="img/dishes/1.jpeg" alt="" onclick="show('img/dishes/1.jpeg','fried 🐔 chicken')"></div>
+                    <div class="dish-info">
+                        <h2>fried 🐔 chicken </h2>
+                        <span style="color: gold; font-size: 20px;">
+                               <i class="fa fa-star" aria-hidden="true"></i>
+                               <i class="fa fa-star" aria-hidden="true"></i>
+                               <i class="fa fa-star" aria-hidden="true"></i>
+                               <i class="fa fa-star-half" aria-hidden="true"></i>
+                        </span>
+                        <button type="submit" class="btn">Place an Order</button>
+                    </div>
+                </div>
+                <!-- !end dish -->
+                  <!-- *dish -->
+                  <div class="dish-card center flex">
+                    <div class="dish-img"><img src="img/dishes/2.jpeg" onclick="show('img/dishes/2.jpeg','Baked bread with life fromage')" alt=""></div>
+                    <div class="dish-info">
+                        <h2>Baked bread with life fromage </h2>
+                        <span style="color: gold; font-size: 20px;">
+                               <i class="fa fa-star" aria-hidden="true"></i>
+                               <i class="fa fa-star" aria-hidden="true"></i>
+                               <i class="fa fa-star" aria-hidden="true"></i>
+                               <i class="fa fa-star-half" aria-hidden="true"></i>
+                        </span>
+                        <button type="submit" class="btn">Place an Order</button>
+                    </div>
+                </div>
+                <!-- !end dish -->
+                   <!-- *dish -->
+                   <div class="dish-card center flex">
+                    <div class="dish-img"><img src="img/dishes/3.jpeg" alt="" onclick="show('img/dishes/3.jpeg','Rosted egg and vegetables')"></div>
+                    <div class="dish-info">
+                        <h2>Rosted egg and vegetables</h2>
+                        <span style="color: gold; font-size: 20px;">
+                               <i class="fa fa-star" aria-hidden="true"></i>
+                               <i class="fa fa-star" aria-hidden="true"></i>
+                               <i class="fa fa-star" aria-hidden="true"></i>
+                               <i class="fa fa-star-half" aria-hidden="true"></i>
+                        </span>
+                        <button type="submit" class="btn">Place an Order</button>
+                    </div>
+                </div>
+                <!-- !end dish -->
+                   <!-- *dish -->
+                   <div class="dish-card center flex">
+                    <div class="dish-img"><img src="img/dishes/4.jpeg" alt="" onclick="show('img/dishes/4.jpeg','Ashed 🍖 with egg stew')"></div>
+                    <div class="dish-info">
+                        <h2>Ashed 🍖 with egg stew</h2>
+                        <span style="color: gold; font-size: 20px;">
+                               <i class="fa fa-star" aria-hidden="true"></i>
+                               <i class="fa fa-star" aria-hidden="true"></i>
+                               <i class="fa fa-star" aria-hidden="true"></i>
+                               <i class="fa fa-star-half" aria-hidden="true"></i>
+                        </span>
+                        <button type="submit" class="btn">Place an Order</button>
+                    </div>
+                </div>
+                <!-- !end dish -->
+                   <!-- *dish -->
+                   <div class="dish-card center flex">
+                    <div class="dish-img"><img src="img/dishes/5.jpeg" alt="" onclick="show('img/dishes/5.jpeg','Austrian speices ')"></div>
+                    <div class="dish-info">
+                        <h2>Austrian speices </h2>
+                        <span style="color: gold; font-size: 20px;">
+                               <i class="fa fa-star" aria-hidden="true"></i>
+                               <i class="fa fa-star" aria-hidden="true"></i>
+                               <i class="fa fa-star" aria-hidden="true"></i>
+                               <i class="fa fa-star-half" aria-hidden="true"></i>
+                        </span>
+                        <button type="submit" class="btn">Place an Order</button>
+                    </div>
+                </div>
+                <!-- !end dish -->
+            </div>
+       </div> 
+       <div class="modal center">
+           <img id="modalImg" src="img/dishes/1.jpeg" alt="" width="50%" onclick="show('img/dishes/1.jpeg','Riz and spanish ash ')">  
+            <div class="modal-info">
+                <h1 id="title">Riz and spanish ash </h1>
+                <h2>$177 <small>$200</small></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non et excepturi explicabo, omnis ab molestias nostrum autem dignissimos facere aperiam.</p>
+                 <span><i class="fa fa-truck" aria-hidden="true"></i></span><span><i class="fa fa-check-circle" aria-hidden="true"></i></span><span><i class="fa fa-tags" aria-hidden="true"></i></span>
+            </div> 
+       </div>
+      <span class="overlay"></span>
+  </section>
+  <section id="experts" class="center flex">
+    <h1 class="title" style="color: #fff;"><span class="color">Ex</span>pert <span class="color">Te</span>am</h1><br><br>
+    <div class="team center">
+        <!-- *card -->
+        <div class="team-card">
+             <div class="team-img">
+                <img src="img/chefs/1.jpg" alt="">
+                <div class="social">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </div>
+             </div>
+            
+             <div class="team-info">
+                <h1>Walter Brian</h1>
+                <span>Chief Executive Officer</span>
+             </div>
+            
+        </div>
+        <!-- !card -->
+        <!-- *card -->
+        <div class="team-card">
+             <div class="team-img">
+                <img src="img/chefs/2.jpg" alt="">
+                <div class="social">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </div>
+             </div>
+             <div class="team-info">
+                <h1>Walter Brian</h1>
+                <span>Chief Executive Officer</span>
+             </div>
+        </div>
+        <!-- !card -->
+        <!-- *card -->
+        <div class="team-card">
+            <div class="team-img">
+                <img src="img/chefs/3.jpg" alt="">
+                <div class="social">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="team-info">
+                <h1>Walter Brian</h1>
+                <span>Chief Executive Officer</span>
+             </div>
+        </div>
+        <!-- !card -->
+        <!-- *card -->
+        <div class="team-card">
+            <div class="team-img">
+                <img src="img/chefs/4.jpg" alt="">
+                <div class="social">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="team-info">
+                <h1>Walter Brian</h1>
+                <span>Chief Executive Officer</span>
+             </div>
+        </div>
+        <!-- !card -->
+    </div>
+  </section>
+  <div id="testimonials">
+       <div class="testi-content">
+        <h1 class="title" style="color: #fff;"><span class="color">Tes</span>timonials</h1><br><br>
+        <div class="owl-carousel  owl-theme">
+            <div class="item center flex">
+                 <div class="testi-img">
+                     <img src="https://bootstrapmade.com/demo/templates/BizLand/assets/img/testimonials/testimonials-1.jpg" alt="">
+                 </div>
+                <h4><i class="fa fa-quote-left" aria-hidden="true"></i>  eos exercitationem doloremque. Animi veniam, autem ullam quos illum impedit est deleniti amet nostrum cumque, eligendi nobis ab, sequi laborum expedita recusandae adipisci?    <i class="fa fa-quote-right" aria-hidden="true"></i></h4>
+            </div>
+            <div class="item center flex">
+                <div class="testi-img">
+                    <img src="https://bootstrapmade.com/demo/templates/BizLand/assets/img/testimonials/testimonials-2.jpg" alt="">
+                </div>
+               <h4><i class="fa fa-quote-left" aria-hidden="true"></i>  eos exercitationem doloremque. Animi veniam, autem ullam quos illum impedit est deleniti amet nostrum cumque, eligendi nobis ab, sequi laborum expedita recusandae adipisci?    <i class="fa fa-quote-right" aria-hidden="true"></i></h4>
+            </div>
+            <div class="item center flex">
+                <div class="testi-img">
+                    <img src="https://bootstrapmade.com/demo/templates/BizLand/assets/img/testimonials/testimonials-3.jpg" alt="">
+                </div>
+               <h4><i class="fa fa-quote-left" aria-hidden="true"></i>  eos exercitationem doloremque. Animi veniam, autem ullam quos illum impedit est deleniti amet nostrum cumque, eligendi nobis ab, sequi laborum expedita recusandae adipisci?    <i class="fa fa-quote-right" aria-hidden="true"></i></h4>
+            </div>
+          
+        </div>
+
+       </div>
+  </div>
+  <div id="contact" class="center flex">
+     <div class="contact-info">
+        <div class="contact-content center">
+            <div class="map">
+                <img src="img/contact.jpg" width="100%" height="auto" alt="">    
+            </div>
+            <div class="form center flex">
+                <h1 class="title" ><span class="color">Con</span>tact Us</h1><br><br>
+                 <div class="address center">
+                     <div>
+                         <h4> Address <br>
+                          A108 Adam Street, CMR</h4>
+                     </div>
+                     <div>
+                         <h4>
+                          Phone Number <br>
+  
+                          +237 6948700000
+                         </h4>
+                     </div>
+                     <div>
+                         <h4>
+                          Email <br>
+  
+                          wansimath123@gmail.com
+                         </h4>
+                     </div>
+                 </div>
+                <form action="#" method="post" class="center flex">
+                   <input type="text" placeholder="Enter Your Name" name="name" id="" required> 
+                    <input type="text" name="number" placeholder="Enter Your Phone number" id="" required>
+                    <textarea name="message" id="" placeholder="Message" cols="30" rows="10" required>
+                        
+                    </textarea>
+                     <button class="btn" type="submit">Envoyer</button>
+                </form>
+            </div>
+        </div>
+         <div class="contact-content x">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d297.85608730831564!2d9.750812626993893!3d4.066725143285734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e6!4m3!3m2!1d4.066724!2d9.75084!4m3!3m2!1d4.066724!2d9.7288673!5e1!3m2!1sfr!2scm!4v1641551355543!5m2!1sfr!2scm" width="100%" class="contact-map" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+         </div>
+     </div>
+  </div>
+  <div id="footer" class="center flex">
+    <div class="footer-top center flex">
+        <h5><img src="img/chef.png" alt="" width="40px"><span class="color">Ze</span>Cook</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae animi vero quod consectetur nesciunt expedita!</p>
+         <span>
+             <i class="fa fa-facebook" aria-hidden="true"></i>
+             <i class="fa fa-instagram" aria-hidden="true"></i>
+             <i class="fa fa-linkedin" aria-hidden="true"></i>
+         </span>
+    </div>  
+    <div class="footer-bottom center">
+        Copyright © Modus. Designed by CodeWithGeeks
+    </div>  
+  </div>
+
+       <!-- *owl carousel -->
+      <script src="js/jquery.1.11.1.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="js/main.js"></script>
+     <script> 
+     </script>
+</body>
+</html>
