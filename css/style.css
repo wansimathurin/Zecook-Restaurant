@@ -541,3 +541,21 @@ textarea{
 	top: 0px;
 	transform: rotate(45deg);
  }
+
+ /* *Back to top button */
+ .back-to-top{
+   height: 40px;
+   width: 40px;
+   background-color: #040919; 
+   display: flex;
+   position: fixed;
+   color: #fff;
+   bottom: 100px;
+   z-index: 999;
+   cursor: pointer;
+   right: 30px;
+transition: .2s ease-in-out;
+ }
+ .back-to-top:hover{
+	 border-radius: 50%;
+ }
