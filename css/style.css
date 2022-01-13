@@ -163,7 +163,7 @@ justify-content: center;
 
  /* *about area */
  #about{
-     height: 100vh;
+     height: 100%;
      width: 100%; 
  }
  .about-infos{
